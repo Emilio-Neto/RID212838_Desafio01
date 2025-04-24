@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    font-family: inter;
+}
+
+body{
+    width: 1440px; 
+    height: 2116px;       
+}
+
+#cabecalho{
+    width: 1440px; 
+    height: 475px;
+    background-color: #303030;
+    display: flex;
+}
+
+#centro-cabecalho{
+    margin-top: 206px;
+    margin-left: 62px;
+}
+
+#titulo-cabecalho{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 60px;
+    letter-spacing: -2.5%;
+}
+
+#texto-cabecalho{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0%;
+}
+
+#secao-cabecalho{
+    width: 1440px; 
+    height: 229px;
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.num-titulo-secao{
+    color: #000000;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.texto-secao-cabecalho{
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#corpo{
+    width: 1440px; 
+    height: 774px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+#texto-corpo{
+    width: 735px;
+    margin-left: 77px;
+}
+
+#titulo-corpo{
+    color: #000000;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#paragrafo-corpo{
+    color: #000000;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+#imagem-corpo{
+    margin-left: 64px;
+}
+
+#rodape{
+    width: 1440px; 
+    height: 638px;
+    background-color: #303030;
+    margin-top: -100px;
+}
+
+#texto-formulario{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    margin-top: 100px;
+    margin-left: 445px;
+    padding-top: 87px;
+    
+}
+
+.input-formulario{
+    margin-top: 48px;
+    margin-left: 466px;
+    width: 508px;
+    height: 72px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;    
+}
+
+input::placeholder {
+    color: #b3b3b3;
+    padding-left: 30px;
+}
+
+#botao-fale-conosco{
+    margin-top: 100px;
+    margin-left: 577px;
+    width: 286px;
+    height: 74px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #C07212;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px; 
+    cursor: pointer;    
+}
+
+button:hover{
+    background-color: #e79d43;
+    color: white;
+    transform: translateY(-2px);    
+    box-shadow: 0px 15px 20px #00000081;
+    transition: 0.35s;
+}
